@@ -1,0 +1,22 @@
+package com.electricitybill.entityClass;
+
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+
+@Getter
+@Setter
+@AllArgsConstructor
+@Builder
+@ToString
+public class Employee {
+	private String cName;
+	private String cNumber; // Auto generated
+	private String cId; //Aadhar Number
+	private String cAddress;
+	private String mobile;
+		
+}
